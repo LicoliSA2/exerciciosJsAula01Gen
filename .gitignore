@@ -1,0 +1,112 @@
+# Ignorar dependências do Node.js
+node_modules/
+
+# Ignorar arquivos de bloqueio (gerados automaticamente)
+package-lock.json
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+# Ignorar arquivos de log
+*.log   
+# Ignorar diretórios de build
+dist/   
+build/  
+# Ignorar arquivos de configuração do ambiente
+.env
+.env.local  
+.env.development.local
+.env.test.local
+.env.production.local
+# Ignorar arquivos de cache do IDEs
+.vscode/    
+.idea/
+# Ignorar arquivos de cobertura de testes   
+coverage/
+.nyc_output/
+# Ignorar arquivos gerados pelo sistema operacional 
+*.swp
+*~  
+# Ignorar arquivos de saída de depuração
+debug/
+*.out
+# Ignorar arquivos de backup    
+*.bak
+*.tmp
+# Ignorar arquivos de configuração do editor
+*.sublime-project   
+*.sublime-workspace
+# Ignorar arquivos de configuração do JetBrains
+*.iml
+*.ipr
+*.iws
+# Ignorar arquivos de cache do npm  
+.npm/
+# Ignorar arquivos de cache do yarn
+.yarn/cache/
+.yarn/unplugged/    
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+# Ignorar arquivos de log do yarn
+.yarn/logs/
+# Ignorar arquivos de configuração do ESLint    
+.eslintcache
+# Ignorar arquivos de configuração do TypeScript    
+*.tsbuildinfo
+# Ignorar arquivos de saída do Babel
+babel.config.js
+babel.config.cjs
+# Ignorar arquivos de saída do Webpack  
+webpack.config.js
+webpack.config.cjs
+webpack.config.ts
+# Ignorar arquivos de saída do Rollup
+rollup.config.js    
+rollup.config.cjs
+rollup.config.ts
+# Ignorar arquivos de saída do Parcel
+parcel.config.js
+parcel.config.cjs
+parcel.config.ts
+# Ignorar arquivos de saída do Vite
+vite.config.js
+vite.config.ts
+vite.config.cjs
+# Ignorar arquivos de saída do Snowpack
+snowpack.config.js
+snowpack.config.cjs
+snowpack.config.ts
+# Ignorar arquivos de saída do Gulp
+gulpfile.js
+gulpfile.cjs
+gulpfile.ts
+# Ignorar arquivos de saída do Grunt
+Gruntfile.js
+Gruntfile.cjs
+Gruntfile.ts
+# Ignorar arquivos de saída do Next.js
+.next/  
+# Ignorar arquivos de saída do Nuxt.js
+.nuxt/  
+# Ignorar arquivos de saída do Gatsby
+.cache/
+public/ 
+# Ignorar arquivos de saída do SvelteKit
+.svelte-kit/
+build/
+# Ignorar arquivos de saída do Angular
+.angular/   
+dist/
+# Ignorar arquivos de saída do React Native
+.expo/
+.expo-shared/
+# Ignorar arquivos de saída do Electron
+dist-electron/
+out-electron/
+# Ignorar arquivos de saída do Ionic
+www/
+# Ignorar arquivos de saída do Cordova  
+platforms/
+plugins/
+www/
